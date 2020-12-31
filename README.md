@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/monkeyWie/yapi-gitlab/workflows/build/badge.svg)](https://github.com/monkeyWie/yapi-gitlab/actions?query=workflow%3Abuild)
+
 ## 介绍
 
 开箱即用的`yapi+gitlab` docker 构建脚本，基于构建出来的镜像可以快速的搭建一套支持 gitlab 登陆 yapi 服务。
@@ -48,7 +50,7 @@ docker run --name yapi \
     -e GITLAB_CLIENT_SECRET=443ce87cae2a6f2abbe080c2a9247d1da83f7a880fcbc69da7fa194655394eb5 \
     -e YAPI_HOST=https://yapi.xxx.com \
     -p 3000:3000 \
-    yapi-gitlab:1.9.2
+    liwei2633/yapi-gitlab
 ```
 
 yapi 服务已禁止注册账号，只能通过 gitlab 或管理员账号进行登录，管理员默认账号密码为：`admin@admin.com`+`ymfe.org`
