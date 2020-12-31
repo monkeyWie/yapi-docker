@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v1
+      - name: Docker login
+        run: docker login -u liwei2633 -p ${{ secrets.DOCKER_HUB_PWD }}
+      - name: Docker build
+        run: |
+          docker build -t liwei2633/yapi-gitlab:v1.9.2 .
+          docker tag liwei2633/yapi-gitlab:v1.9.2 liwei2633/yapi-gitlab:latest
+          docker push liwei2633/xgo:v1.9.2
+          docker push liwei2633/xgo:latest
