@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/monkeyWie/yapi-gitlab/workflows/build/badge.svg)](https://github.com/monkeyWie/yapi-gitlab/actions?query=workflow%3Abuild)
+[![Build Status](https://github.com/monkeyWie/yapi-gitlab/workflows/CI/badge.svg)](https://github.com/monkeyWie/yapi-gitlab/actions?query=workflow%3ACI)
 
 ## 介绍
 
