@@ -1,0 +1,32 @@
+{
+    "port": "3000",
+    "closeRegister": true,
+    "adminAccount": "admin@admin.com",
+    "db": {
+       "servername": "%DB_SERVERNAME%",
+       "DATABASE": "%DB_DATABASE%",
+       "port": "%DB_PORT%",
+       "user": "%DB_USER%",
+       "pass": "%DB_PASS%"
+    },
+    "mail": {
+       "enable": false,
+       "host": "smtp.163.com",
+       "port": 465,
+       "from": "***@163.com",
+       "auth": {
+          "user": "***@163.com",
+          "pass": "*****"
+       }
+    },
+    "plugins":[{
+       "name":"gitlab-oauth2",
+       "options":{
+          "host" : "%GITLAB_HOST%",
+          "clientId" : "%GITLAB_CLIENT_ID%",
+          "clientSecret" : "%GITLAB_CLIENT_SECRET%",
+          "redirectUri" : "%YAPI_HOST%/api/user/login_by_token"
+       }
+    }]
+ }
+ 
