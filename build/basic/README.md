@@ -33,7 +33,7 @@ docker run --name yapi \
     -e DB_USER=yapi \
     -e DB_PASS=123456 \
     -p 3000:3000 \
-    liwei2633/yapi-gitlab
+    liwei2633/yapi
 ```
 
 管理员默认账号密码为：`admin@admin.com`+`ymfe.org`
