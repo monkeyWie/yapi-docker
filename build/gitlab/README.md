@@ -1,5 +1,3 @@
-[![Build Status](https://github.com/monkeyWie/yapi-gitlab/workflows/CI/badge.svg)](https://github.com/monkeyWie/yapi-gitlab/actions?query=workflow%3ACI)
-
 ## 介绍
 
 开箱即用的`yapi+gitlab` docker 镜像，基于构建出来的镜像可以快速的搭建一套支持 gitlab 登陆 yapi 服务。
