@@ -24,7 +24,7 @@ jobs:
           docker tag liwei2633/yapi:1.9.2 liwei2633/yapi:latest
           docker push liwei2633/yapi:1.9.2
           docker push liwei2633/yapi:latest
-        uses: peter-evans/dockerhub-description@v2
+      - uses: peter-evans/dockerhub-description@v2
         with:
           username: liwei2633
           password: ${{ secrets.DOCKER_HUB_PWD }}
@@ -46,7 +46,7 @@ jobs:
           docker tag liwei2633/yapi-gitlab:1.9.2 liwei2633/yapi-gitlab:latest
           docker push liwei2633/yapi-gitlab:1.9.2
           docker push liwei2633/yapi-gitlab:latest
-        uses: peter-evans/dockerhub-description@v2
+      - uses: peter-evans/dockerhub-description@v2
         with:
           username: liwei2633
           password: ${{ secrets.DOCKER_HUB_PWD }}
