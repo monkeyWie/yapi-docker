@@ -28,7 +28,7 @@ jobs:
         with:
           username: liwei2633
           password: ${{ secrets.DOCKER_HUB_PWD }}
-          repository: monkeyWie/yapi-gitlab
+          repository: liwei2633/yapi
           readme-filepath: ./build/basic/README.md
 
   build-gitlab:
@@ -50,5 +50,5 @@ jobs:
         with:
           username: liwei2633
           password: ${{ secrets.DOCKER_HUB_PWD }}
-          repository: monkeyWie/yapi-gitlab
+          repository: liwei2633/yapi-gitlab
           readme-filepath: ./build/gitlab/README.md
