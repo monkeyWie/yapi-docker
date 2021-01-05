@@ -6,6 +6,8 @@ on:
       - master
     paths-ignore:
       - "README.md"
+      - "build/basic/README.md"
+      - "build/gitlab/README.md"
   workflow_dispatch:
 
 jobs:

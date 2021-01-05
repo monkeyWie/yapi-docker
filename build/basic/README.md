@@ -6,11 +6,7 @@
 
 ## 准备事项
 
-### 1. yapi 访问地址
-
-先确定好 yapi 浏览器访问的地址，例如：`https://yapi.xxx.com`
-
-### 2. mongoDB
+### 1. mongoDB
 
 在 mongoDB 中创建一个库，并创建一个用户进行授权，示例：
 

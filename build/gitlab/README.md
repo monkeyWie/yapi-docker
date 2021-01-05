@@ -8,7 +8,7 @@
 
 ### 1. yapi 访问地址
 
-先确定好 yapi 浏览器访问的地址，例如：`https://yapi.xxx.com`
+先确定好 yapi 浏览器访问的地址，例如：`http://192.168.200.100:3000`、`https://yapi.xxx.com`
 
 ### 2. mongoDB
 
